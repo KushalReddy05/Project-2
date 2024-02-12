@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url("https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/parliament-store-critical-data-in-india-showcase_image-4-a-8774.jpg");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 6px;
+}
+nav img{
+    width: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 5px;
+    position: relative;
+    padding-right: 30px;
+}
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: floralwhite;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.Aarambham{
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.CU{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.Aarambham p {
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.CS{
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+.Box1{
+    margin-top: 3%;
+    display: flex;
+    justify-content: start;
+    margin-left: 80px;
+}
+.B1{
+    flex-basis: 17%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px 12px;
+    margin-left: 30px;
+}
+.P1{
+    padding-top: 5px;
+}
+.form{
+    width: 400px;
+    height: 530px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 18%;
+    left: 1050px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Input{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Input1{
+    border-radius: 10px;
+    border-color: black;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 160px;
+    margin-right: 10px;
+    height: 30px;
+    margin-left: 14px;
+}
+.Input2{
+    border-radius: 10px;
+    border-color: black;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 350px;
+    margin-right: 10px;
+    height: 30px;
+    margin-left: 16px;
+}
+.form h1{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.form p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.B2{
+    padding-inline: 150px;
+    padding-block: 10px;
+    background-color: rgb(55, 55, 235);
+    color: #ffffff;
+    border-color: #ffffff;
+    margin-left: 18px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.txtarea{
+    border-radius: 10px;
+    border-color:black;
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
+span {
+    color: black;
+    font-weight: bold;
+}
+.BY{
+    color: rgb(60, 58, 58);
+    padding-top: 15px;
+}
